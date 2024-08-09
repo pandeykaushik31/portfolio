@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: "Poppins", sans-serif;
+        color: white;
+        background-color: hsla(204.38709677, 79.48717949%, 38.23529412%, 1);
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(65, 130, 173);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+
+      nav ul li a:hover {
+        color: rgb(174, 174, 247);
+        font-size: 1.02rem;
+      }
+      .left {
+        font-size: 1.5rem;
+      }
+
+      /* header {
+        background-color: rgb(65, 130, 173);;
+        color: #fff;
+        text-align: center;
+        padding: 20px 0;
+      } */
+
+      h1 {
+        margin: 0;
+      }
+
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .profile-img img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border: 5px solid #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      .bio {
+        flex-grow: 1;
+        margin-left: 20px;
+      }
+
+      h2 {
+        margin-top: 0;
+        font-size: 28px;
+      }
+
+      p {
+        font-size: 18px;
+        line-height: 1.6;
+      }
+
+      footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        margin-top: 173px;
+        padding: 20px 0;
+      }
+
+      .footer-content {
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+
+      .footer-content a {
+        margin: 0 10px;
+      }
+
+      .footer-content img {
+        width: 30px;
+        height: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Kaushik's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="project.html">Project</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+            <li><a href="awards.html">Awards</a></li>
+            <li><a href="resume.html">Resume</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="about-me">
+        <div class="container">
+          <div class="profile-img">
+            <img src="cropped_image.png" alt="Profile Picture" />
+          </div>
+          <div class="bio">
+            <h2>Hi, I'm Kaushik Pandey</h2>
+            <p>I'm a passionate Web Developer based in Thane Mumbai.</p>
+            <p>
+              As a dedicated Bachelor of Computer Science from Mumbai University
+              with a passion for coding, I thrive on tackling complex problems
+              and crafting innovative solutions. My expertise lies in Python
+              programming and web development, where I'm proficient in HTML,
+              CSS, JavaScript and Node.JS. With a solid foundation in computer
+              science principles, coupled with my enthusiasm for coding, I'm
+              committed to delivering high-quality projects and continuously
+              expanding my skills. When I'm not coding/designing/creating, you
+              can find me playing Kabaddi and Badminton. I'm always eager to
+              learn and explore new technologies, and I thrive in collaborative
+              environments. Let's connect and explore opportunities to
+              collaborate on exciting ventures!
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-content">
+        <a
+          href="https://www.linkedin.com/in/kaushik-pandey-440828287/"
+          target="_blank"
+          ><img src="linkedin.png" alt="LinkedIn"
+        /></a>
+        <a href="https://github.com/pandeykaushik31" target="_blank"
+          ><img src="github.png" alt="GitHub"
+        /></a>
+        <a href="https://www.youtube.com/" target="_blank"
+          ><img src="youtube.png" alt="YouTube"
+        /></a>
+        <a href="https://wa.me/9794620135" target="_blank"
+          ><img src="whatsapp.png" alt="WhatsApp"
+        /></a>
+      </div>
+    </footer>
+  </body>
+</html>
